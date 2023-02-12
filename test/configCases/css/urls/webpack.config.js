@@ -7,6 +7,7 @@ module.exports = {
 		css: true
 	},
 	output: {
+		cssFilename: "css/[id].css",
 		assetModuleFilename: "[name].[hash][ext][query][fragment]"
 	},
 	optimization: {

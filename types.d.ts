@@ -10800,9 +10800,9 @@ declare abstract class RuntimeTemplate {
 		 */
 		module: Module;
 		/**
-		 * the public path
+		 * the get public path function
 		 */
-		publicPath: string;
+		publicPath: string | ((arg0: string) => string);
 		/**
 		 * runtime
 		 */
